@@ -74,11 +74,9 @@ for (let i = 1; i <= row; i++){
   console.log(str);
 }
 
-console.log('-----');
 
-
-
-
-
-//宿題
-//いろんなパターンで汎用的に使える書き方
+console.log('sin');
+for (let i = 0; i < 180; i += 30){
+  let str = `*`.repeat(Math.floor(Math.abs(Math.sin(i))*4));
+  console.log(str);
+}
